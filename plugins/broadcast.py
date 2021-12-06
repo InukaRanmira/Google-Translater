@@ -7,6 +7,7 @@ import random
 import traceback
 import asyncio
 import datetime
+import motor.motor_asyncio
 import aiofiles
 from io import BytesIO
 from pyrogram import Client, filters
