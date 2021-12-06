@@ -1,7 +1,7 @@
 import os
 from pyrogram import Client ,filters
 from helper.database import find_one
-ADMIN = int(os.environ.get("ADMIN", 923943045))
+ADMIN = int(os.environ.get("ADMIN", 1696230986))
 
 
 @Client.on_message(filters.user(ADMIN) & filters.command(["find"]))
