@@ -16,4 +16,3 @@ async def broadcast(bot, message):
      	await message.reply_to_message.copy(id)
      except:
      	pass
-
