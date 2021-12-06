@@ -6,7 +6,7 @@
         "Google translater",
         "Mongo DB"
     ],
-    "repository": "https://github.com/InukaRanmira/Google_Translater_V2",
+    "repository": "https://github.com/InukaRanmira/Google-Translater",
     "success_url": "https://telegram.dog/lntechnical",
     "env": {
         "API_ID": {
