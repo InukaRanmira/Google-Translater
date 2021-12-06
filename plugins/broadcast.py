@@ -6,7 +6,7 @@ import datetime
 import aiofiles.os
 import traceback
 from config import BROADCAST_AS_COPY
-from szbot.helpers.access_db import db
+from helpers.access_db import db
 from pyrogram.types import Message
 from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked, PeerIdInvalid
 
