@@ -1,40 +1,41 @@
-import pymongo 
-import os
+import datetime
+import motor.motor_asyncio
 
-DB_NAME = os.environ.get("DB_NAME","")
-DB_URL = os.environ.get("DB_URL","")
-mongo = pymongo.MongoClient(DB_URL)
-db = mongo[DB_NAME]
-dbcol = db["USER"]
 
-def insert(chat_id):
-            user_id = int(chat_id)
-            user_det = {"_id":user_id,"lg_code":None}
-            try:
-            	dbcol.insert_one(user_det)
-            except:
-            	pass
+class Database:
 
-def set(chat_id,lg_code):
-	 dbcol.update_one({"_id":chat_id},{"$set":{"lg_code":lg_code}})
+    def __init__(self, uri, DB_NAME):
+        self._client = motor.motor_asyncio.AsyncIOMotorClient(uri)
+        self.db = self._client[DB_NAME]
+        self.col = self.db.users
 
-	 	
-def unset(chat_id):
-	dbcol.update_one({"_id":chat_id},{"$set":{"lg_code":None}})
+    def new_user(self, id):
+        return dict(
+            id=id,
+            join_date=datetime.date.today().isoformat(),
+            ban_status=dict(
+                is_banned=False,
+                ban_duration=0,
+                banned_on=datetime.date.max.isoformat(),
+                ban_reason=''
+            )
+        )
 
-def find(chat_id):
-	id =  {"_id":chat_id}
-	x = dbcol.find(id)
-	for i in x:
-             lgcd = i["lg_code"]
-             return lgcd 
+    async def add_user(self, id):
+        user = self.new_user(id)
+        await self.col.insert_one(user)
 
-def getid():
-    values = []
-    for key  in dbcol.find():
-         id = key["_id"]
-         values.append((id)) 
-    return values
+    async def is_user_exist(self, id):
+        user = await self.col.find_one({'id': int(id)})
+        return True if user else False
 
-def find_one(id):
-	return dbcol.find_one({"_id":id})
+    async def total_users_count(self):
+        count = await self.col.count_documents({})
+        return count
+
+    async def get_all_users(self):
+        all_users = self.col.find({})
+        return all_users
+
+    async def delete_user(self, user_id):
+        await self.col.delete_many({'id': int(user_id)})
