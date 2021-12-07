@@ -10,13 +10,13 @@
 
 </p>
 <p align="center">
-  <a href="https://github.com/InukaRanmira/Google_Translater_V2">
-    <img src="https://img.shields.io/github/stars/lntechnical2/Google_Translater_V2?style=social">
+  <a href="https://github.com/InukaRanmira/Google-Translater">
+    <img src="https://img.shields.io/github/stars/InukaRanmira/Google-Translater?style=social">
 
   </a>
   
-  <a href="https://github.com/InukaRanmira/Google_Translater_V2/fork">
-    <img src="https://img.shields.io/github/forks/lnukaRanmira/Google_Translater_V2?label=Fork&style=social">
+  <a href="https://github.com/InukaRanmira/Google-Translater/fork">
+    <img src="https://img.shields.io/github/forks/lnukaRanmira/Google-Translater?label=Fork&style=social">
 
   </a>  
 </p>
