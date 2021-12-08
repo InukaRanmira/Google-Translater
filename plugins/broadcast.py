@@ -4,8 +4,7 @@ from helper.database import getid
 ADMIN = int(os.environ.get("ADMIN", 1696230986))
 
 @Client.on_message(filters.command("stats") & filters.user(ADMIN))
-async def broadcast(bot, message):
- if (message.reply_to_message):
+async def broadcast(_, message):
    users = len(getid())
    await message.reply_text(f"Total User - {users}")
 
