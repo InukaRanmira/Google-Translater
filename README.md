@@ -83,4 +83,3 @@ and larger works may be distributed under different terms and without source cod
   </a>
 </p>
 
-[Follow Me](httpa://gitHub.com/InukaRanmira)
