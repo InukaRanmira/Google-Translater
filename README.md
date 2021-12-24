@@ -17,7 +17,7 @@
 
   </a>
   
-  <a href="https://github.com/InukaRanmira/Google-Translater-heroku/fork">
+  <a href="https://github.com/InukaRanmira/Google-Translater/fork">
     <img src="https://img.shields.io/github/forks/lnukaRanmira/Google-Translater?label=Fork&style=social">
 
   </a>  
