@@ -7,8 +7,10 @@
   </a>
 </p>
 </p>
-
 </p>
+
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=InukaRanmira&repo=Google-Translater&theme=dark)
+
 <p align="center">
   <a href="https://github.com/InukaRanmira/Google-Translater">
     <img src="https://img.shields.io/github/stars/InukaRanmira/Google-Translater?style=social">
