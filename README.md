@@ -17,11 +17,12 @@
 
   </a>
   
-  <a href="https://github.com/InukaRanmira/Google-Translater/fork">
+  <a href="https://github.com/InukaRanmira/Google-Translater-heroku/fork">
     <img src="https://img.shields.io/github/forks/lnukaRanmira/Google-Translater?label=Fork&style=social">
 
   </a>  
 </p>
+
 
 ## Features
 
