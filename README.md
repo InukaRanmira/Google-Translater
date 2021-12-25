@@ -14,11 +14,6 @@
     <img src="https://img.shields.io/github/stars/InukaRanmira/Google-Translater?style=social">
 
   </a>
-  
-  <a href="https://github.com/InukaRanmira/Google-Translater/fork">
-    <img src="https://img.shields.io/github/forks/lnukaRanmira/Google-Translater?label=Fork&style=social">
-
-  </a>  
 </p>
 
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=InukaRanmira&repo=Google-Translater&theme=dark)
@@ -68,7 +63,7 @@
 
 ## License
 ````
-https://github.com/InukaRanmira/Google_Translater_V2 is licensed under the
+https://github.com/InukaRanmira/Google-Translater is licensed under the
 Apache License 2.0
 A permissive license whose main conditions require preservation of copyright and license notices.
 Contributors provide an express grant of patent rights.
@@ -77,7 +72,7 @@ and larger works may be distributed under different terms and without source cod
 ````
 
 ## Support Group:
-<a href="https://telegram.dog/slbotzone"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a> <br>
+<a href="https://telegram.dog/slbotzone"><img src="https://img.shields.io/badge/Join-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a> <br>
 <a href="https://t.me/Szteambots"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
 
