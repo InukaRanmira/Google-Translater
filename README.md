@@ -23,6 +23,14 @@
 
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=InukaRanmira&repo=Google-Translater&theme=dark)
 
+<p align="center">
+    <a href="https://app.codacy.com/InukaRanmira/Google-Translater/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
+    <a href="https://github.com/InukaRanmira/Google-Translater"> <img src="https://img.shields.io/github/repo-size/InukaRanmira/Google-Translater?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/InukaRanmira/Google-Translater/commits/"> <img src="https://img.shields.io/github/last-commit/InukaRanmira/Google-Translater?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/InukaRanmira/Google-Translater/issues"> <img src="https://img.shields.io/github/issues/InukaRanmira/Google-Translater?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/InukaRanmira/Google-Translater/network/members"> <img src="https://img.shields.io/github/forks/InukaRanmira/Google-Translater?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
+    <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
+</p>
 
 
 ## Features
